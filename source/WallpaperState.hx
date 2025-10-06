@@ -144,7 +144,7 @@ class WallpaperState extends FlxState {
                 }
                 boopWay = !boopWay;
                 bopper.angle = boopWay ? 10 : -10;
-                bopper.scale.set(0.9,0.9);
+                bopper.scale.set(0.9,0.9); //YES. IT. DOES.
                 FlxTween.tween(bopper, {angle: 0}, croshet/1.2, {ease: FlxEase.circOut});
                 FlxTween.tween(bopper.scale, {x: 0.75, y: 0.75}, croshet/1.5, {ease: FlxEase.quadOut});
                 delayy = true;
@@ -156,7 +156,7 @@ class WallpaperState extends FlxState {
         var aawur:Int = Std.parseInt(timestuff.substring(timestuff.substring(11,12) == "0" ? 12 : 11, 13));
         var AmPm:String = (aawur <= 11 ? " AM" : " PM");
         var Hour12:Int = ((aawur == 0 || aawur == 12) ? 12 : Std.parseInt(timestuff.substring(11,13)) % 12);
-        realTime.text = "Current Time: " + Hour12 + timestuff.substr(13) + AmPm + " (MDT)";
+        realTime.text = "Current Time: " + Hour12 + timestuff.substr(13) + AmPm;
 
         super.update(elapsed);
     }
