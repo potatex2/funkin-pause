@@ -1,0 +1,7 @@
+-cp src
+-main Main
+-cpp cpp_build
+-D HXCPP_CLANG=0
+# optional platform defines:
+# -D HXCPP_M64   (for 64-bit)
+# -cppflags -O2

@@ -1,0 +1,8 @@
+{
+    "song": {
+        "song": "breakfast",
+        "bpm": 88,
+        "needsVoices": true
+    },
+    "comments": "pause bpm, needsVoices is for if it bops to beat; manually made by PotateX2"
+}
