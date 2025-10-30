@@ -1,3 +1,8 @@
+Hyprefixation Status:
+- [ ] In Active Development
+- [ ] In Periodic Development
+- [x] Burnout / Other Hyperfocus
+
 # Haxe Wallpaper for Lively Wallpaper
 Oh, hey. You found another one of my hyperfixations lurking in the Internet. Well done.
 
